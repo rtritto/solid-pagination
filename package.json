@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "A SolidJS plugin for paginating your data in no time",
   "type": "module",
+  "packageManager": "yarn@4.4.1",
   "repository": {
     "type": "git",
     "url": "https://github.com/rtritto/solid-pagination.git"
@@ -33,6 +34,8 @@
   },
   "license": "MIT",
   "devDependencies": {
+    "@yarnpkg/sdks": "^3.2.0",
+    "solid-js": "^1.8.22",
     "typescript": "^5.5.4",
     "vite": "^5.4.3",
     "vite-plugin-solid": "^2.10.2",
